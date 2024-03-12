@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    }
+html, body {
+   height: 100%;
+}
+body {
+    font-size: 1.4rem;
+   line-height: 1.4;
+   background-color: rgb(30, 30, 35);
+   transition: all 0.2s ease-in;
+   text-wrap: wrap;
+}
+
+p {
+    display: inline;
+    color: rgb(30, 30, 35);;
+}
+
+p:hover {
+    cursor: pointer;
+    color: pink;
+}
+
+  #btn {
+    position: absolute;
+    white-space: nowrap;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: pointer;
+      }
+      
+button {
+    position: absolute;
+    display: inline-block;
+    top: 95%;
+    left: 96.5%;
+    transform: translate(-50%, -50%);
+    height: 2.2rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+}
