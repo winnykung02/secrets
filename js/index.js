@@ -4,10 +4,10 @@ console.log("hello!!!");
 const runawayBtn = document.getElementById("runaway-btn")
 const OFFSET = 50 //how close mouse needs to be before it starts moving//
 
-//alert pops up and index.html opens in a new tab when button is clicked//
+//alert pops up and secrets.html opens in a new tab when button is clicked//
 runawayBtn.addEventListener("click", () => {
     alert("no snitching!");
-    window.open("index.html");
+    window.open("secrets.html");
 })
 
 //math stuff//
