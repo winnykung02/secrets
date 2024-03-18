@@ -13,11 +13,51 @@ html, body {
    height: 100%;
 }
 body {
-    font-size: 1.4rem;
+   font-size: 1.4rem;
    line-height: 1.4;
    background-color: rgb(30, 30, 35);
-   color: white;
-   overflow: hidden;
+   color: rgb(30, 30, 35);
+   transition: all 0.2s ease-in;
+}
+a {
+  color: rgb(30, 30, 35);
+  display: inline-block;
+  position: absolute;
+}
+a:hover {
+  cursor: pointer;
+}
+#this-button {
+  right:89%;
+  top: 12%;
+}
+#click-here {
+  right: 34%;
+  top: 64%;
+}
+#this-real-button {
+  right: 20%;
+  top: 10%;
+}
+#actual-button {
+  right: 75%;
+  top: 35%;
+}
+#real-button {
+  right: 10%;
+  top: 70%;
+}
+#fake-button {
+  right: 50%;
+  top: 20%;
+}
+#btn {
+  right: 70%;
+  top: 80%;
+}
+#next-page {
+  right: 92%;
+  top: 60%;
 }
 
 /* Button */
@@ -45,3 +85,4 @@ button {
     box-shadow: 1px 1px 5px black;
     background-color: white;
 }
+

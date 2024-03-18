@@ -1,13 +1,23 @@
 console.log("hello!!!");
 
+//button changes background color//
+var box = document.querySelector("body")
+var button = document.querySelector("button"),
+    colors = ["pink", "rgb(30, 30, 35)"];
+
+button.onclick = function () {
+    boxColor = colors.shift();
+    colors.push(boxColor);
+
+    box.style.backgroundColor = boxColor;}
 
 const runawayBtn = document.getElementById("runaway-btn")
 const OFFSET = 50 //how close mouse needs to be before it starts moving//
 
 //alert pops up and secrets.html opens in a new tab when button is clicked//
-runawayBtn.addEventListener("click", () => {
-    alert("no snitching!");
-    window.open("secrets.html");
+const btn = document.getElementById("btn")
+btn.addEventListener("click", () => {
+    alert("you found it!");
 })
 
 //math stuff//
@@ -59,12 +69,12 @@ function distanceFromCenter(boxPosition, mousePosition, boxSize) {
 
 //click on background changes background color, looped between pink & dark gray//
 
-var box = document.querySelector("body"),
-    colors = ["pink", "rgb(30, 30, 35)"];
+// var box = document.querySelector("body"),
+//     colors = ["pink", "rgb(30, 30, 35)"];
 
-box.onclick = function () {
-    color = colors.shift();
-    colors.push(color);
+// box.onclick = function () {
+//     color = colors.shift();
+//     colors.push(color);
 
-    box.style.backgroundColor = color;
-};
+//     box.style.backgroundColor = color;
+// };

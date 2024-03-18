@@ -16,39 +16,30 @@ body {
     font-size: 1.4rem;
    line-height: 1.4;
    background-color: rgb(30, 30, 35);
+   color: rgb(30, 30, 35);
    transition: all 0.2s ease-in;
-   text-wrap: wrap;
 }
 
-p {
-    display: inline;
-    color: rgb(30, 30, 35);;
-}
-
-p:hover {
-    cursor: pointer;
-    color: pink;
-}
-
-  #btn {
+#shh {
+    right: 4%;
+    top: 89%;
     position: absolute;
     white-space: nowrap;
     box-sizing: border-box;
     user-select: none;
     cursor: pointer;
-      }
-      
+}
+
 button {
-    position: absolute;
-    display: inline-block;
-    top: 95%;
-    left: 96.5%;
-    transform: translate(-50%, -50%);
-    height: 2.2rem;
-    width: 8rem;
-    font-size: 1.2rem;
-    border-radius: 5px;
+    background-color: rgb(30, 30, 35);
+    color: rgb(30, 30, 35);
+    box-shadow: none;
     border: none;
-    box-shadow: 1px 1px 5px black;
-    background-color: white;
+    display: block;
+    position: absolute;
+}
+
+button:hover {
+    color: pink;
+    cursor: pointer;
 }
